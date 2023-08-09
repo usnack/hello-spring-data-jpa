@@ -1,1 +1,1 @@
-rootProject.name = "spring-data-jpa"
+rootProject.name = "hello-spring-data-jpa"
