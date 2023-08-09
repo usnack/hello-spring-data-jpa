@@ -1,2 +1,3 @@
-# study_spring-data-jpa
-인프런 Spring Data JPA 학습
+# hello-spring-data-jpa
+Spring Data JPA 기본 학습
+[wiki](https://github.com/usnack/hello-spring-data-jpa/wiki)
