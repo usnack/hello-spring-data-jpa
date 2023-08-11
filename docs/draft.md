@@ -27,6 +27,18 @@ proxy 객체를 만들지 않도록 하고자 하는 경우 ```@NoRepositoryBean
 > 공통 인터페이스를 선언하여 사용하는 경우    
 
 
- 
+한 프로젝트에서 여러개의 데이터 모듈(jpa, mongodb, elastic search...)를 가져야하는 경우 
+interface, 또는 도메인 클래스의 정의에 따른 엄격한 설정 모드로 진입한다. (strict repository configration mode)
+- interface : ```extends JpaRepository```   
+- domain class : ```@Entity```, ```@Document```    
+💡 두가지 모듈을 같이 사용할 수는 있다 (테스트 필요)
+
+
+## Query Method 선언    
+
+
+
+
+
 
 
